@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+public class ScriptButtonBelakang : MonoBehaviour {
+
+	
+	public ColorChanger1 _ColorChanger1;
+	
+	public void warna1(bool clicked)
+	{
+		if (clicked == true)
+		{	
+			_ColorChanger1.SwapTexture ();
+			
+		}else 
+		{
+			
+		}
+		
+	}
+	
+	
+}
